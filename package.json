@@ -4,14 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --config ./nodemon.json lib/server.js",
+    "dev": "nodemon --config ./nodemon.json lib/index.js",
     "lint": "esw lib --color",
     "lint:fix": "npm run lint -- --fix",
     "lint:watch": "npm run lint -- --watch --clear",
+    "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fakercli": "./lib/index.js"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "commander": "^5.0.0",
+    "faker": "git+https://github.com/Marak/Faker.js",
+    "flat": "^5.0.0",
+    "lodash": "^4.17.15"
+  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",

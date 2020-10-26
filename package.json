@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.0",
     "command-line-args": "^5.1.1",
     "commander": "^5.0.0",
     "faker": "git+https://github.com/Marak/Faker.js",

@@ -1,0 +1,22 @@
+### single files ###
+*.log
+
+### folders ###
+
+
+# cache location
+.cache/
+
+# project dependencies
+node_modules
+.lectures
+
+# build folders
+dist
+build
+
+# coverage reports
+.nyc_output/
+coverage
+.coveralls.yml
+

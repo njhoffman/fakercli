@@ -22,7 +22,7 @@
     "commander": "^5.0.0",
     "faker": "git+https://github.com/Marak/Faker.js",
     "flat": "^5.0.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
